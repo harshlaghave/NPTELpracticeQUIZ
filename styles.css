@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+/* ✅ Make the Search Explanation button smaller */
+/* ✅ Small Circular Button */
+/* ✅ Small Rounded Button with a Thin Border */
+/* ✅ Small Rounded Button with Google Logo */
+/* ✅ Search Button with Text + Logo */
+#search-explanation-btn {
+    background-color: white; /* White background */
+    color: #333; /* Dark text */
+    font-size: 12px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #d3d3d3; /* Light gray border */
+    border-radius: 12px; /* Slightly rounded */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+/* ✅ Style the Google Logo */
+.google-logo {
+    width: 16px; /* Resize logo */
+    height: 16px;
+    margin-left: 5px; /* Add spacing between text and logo */
+}
+
+/* ✅ Hover Effect */
+#search-explanation-btn:hover {
+    background-color: #f1f1f1; /* Light gray hover */
+    transform: scale(1.05);
+}
+
+
