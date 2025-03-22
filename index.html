@@ -26,6 +26,10 @@
             <h3>Explanation:</h3>
             <p id="explanation">Click "Search Explanation" to get details.</p>
         </div>
+         <div class="download-container">
+        <button onclick="downloadSummary()">View Revision PDF (Summarized)</button>
+    </div>
+
     </div>
     <div id="timer">Time: 0:00</div> <!-- ✅ Timer appears at the top -->
    
@@ -41,7 +45,12 @@
         <h3 id="time-spent">Total Time: 0:00</h3> <!-- ✅ Show total time spent -->
         <button onclick="restartQuiz()">Practice Again</button>
     </div>
-    
+
+     <script>
+        function downloadSummary() {
+            window.location.href = 'revision.pdf';
+        }
+    </script>
     <script src="script.js"></script>
     <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
